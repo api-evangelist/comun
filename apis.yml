@@ -1,8 +1,14 @@
 aid: comun
 name: Comun
-description: 'Comun is a company surfaced as a portfolio company of costanoa-ventures, redpoint-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Comun (Común) is a fintech company providing digital banking and money-transfer
+  services designed for Latino immigrants in the United States. Through a bilingual (Spanish/English)
+  mobile app, users open an FDIC-insured U.S. checking account with a valid national ID and no SSN
+  required, get a Visa debit card, receive early direct deposit up to two days ahead of payday, and
+  send international remittances to 17+ Latin American countries via the app or WhatsApp. Banking
+  services are provided through Community Federal Savings Bank; remittance and P2P rails run on
+  UniTeller and Cross River Bank. Comun is backed by Costanoa Ventures and Redpoint Ventures. This
+  profile was added to the API Evangelist network from VC portfolio data; Comun operates as a
+  consumer neobank and does not publish a public developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/comun/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +17,30 @@ x-backed-by:
 - redpoint-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6825df6a482d281b8f7e8cd1/68d125d6a3238e05dbd5d784_Group%202147256980.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Banking
+- Neobank
+- Remittances
+- Money Transfer
+- Immigrants
+- Consumer Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/comun-domain-security.yml
 - type: Website
   url: https://www.comun.app
+- type: HelpCenter
+  url: https://info.comun.app/es/
+- type: Support
+  url: https://wa.me/16466005660
+- type: Blog
+  url: https://www.comun.app/blog
+- type: PrivacyPolicy
+  url: https://www.comun.app/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.comun.app/legal#agreements
+- type: SignUp
+  url: https://comun.onelink.me/CqOS
+- type: About
+  url: https://www.comun.app/about-us
+- type: Careers
+  url: https://www.comun.app/careers
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
